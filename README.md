@@ -15,7 +15,7 @@ A trie where pairs of natural numbers may be stored. These functions adhere to t
 * Pure functions
 * No side-effects
 
-This implementation of a trie can be used to implement other abstract data types (ADT) such as a RAM which can be found here
+This implementation of a trie can be used to implement other abstract data types (ADT) such as a RAM which can be found here:
 [Implementation of RAM](https://github.com/tansonlee/ram)
 
 ## List of Functions
@@ -33,7 +33,7 @@ print(fetch(my_trie, 0)) # 121
 print(fetch(my_trie, 16)) # 99
 
 my_trie_without_0 = remove(my_trie, 0)
-print(fetch(my_trie_without_0, 0))
+print(fetch(my_trie_without_0, 0)) # None
 ```
 
 The output is:
