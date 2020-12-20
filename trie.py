@@ -66,8 +66,3 @@ def fetch(trie, num):
 	elif num % 2 == 1:
 		# search right
 		return fetch(trie.right, (num - 1) / 2)
-
-a = insert(empty_trie, 4, 101010)
-b = insert(a, 16, 99999)
-c = remove(b, 16)
-print(fetch(c, 16))
