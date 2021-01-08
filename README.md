@@ -2,11 +2,14 @@
 
 ## Implementation of a Trie using Functional Programming Techniques
 
+You can use this implementation online using repl.it here: [Trie](https://repl.it/@TansonL/trie)
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [List of Functions](#list-of-functions)
 3. [Example](#example)
 4. [Description of Functions](#description-of-functions)
+5. [How to Use](#how-to-use)
 
 ## Introduction
 
@@ -63,3 +66,11 @@ None
 * O(log(n)) where n = address
 * takes a trie and address
 * returns the value stored at address; None if there is no value stored there
+
+## How to Use
+
+1. Follow this link to the online editor: [Trie](https://repl.it/@TansonL/trie)
+
+2. Replace the example in main.py with your program. You may need to create an account to modify the code.
+
+3. Run the program by clicking the green Run button.
